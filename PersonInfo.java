@@ -12,18 +12,19 @@ package CT_Assignments;
 
 public class PersonInfo {
 	public static void main(String[] args) {
-        // Create variables to store information
+        System.out.println("Personal Information");
         String firstName = "Man";
         String lastName = "Manson";
         String streetAddress = "111 Road St";
         String city = "Ann Arbor";
         String zipCode = "48103";
 
-        // Print the information
+   
         System.out.println("First Name: " + firstName);
         System.out.println("Last Name: " + lastName);
         System.out.println("Street Address: " + streetAddress);
         System.out.println("City: " + city);
         System.out.println("Zip Code: " + zipCode);
+        System.out.println("Thank you for using this program.");
     }
 }
